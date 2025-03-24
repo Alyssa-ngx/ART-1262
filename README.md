@@ -8,8 +8,10 @@ git clone https://github.com/Alyssa-ngx/ART-1262.git
 ```
 
 ### **RUNNING BACKEND**
+```bash
 cd backend-node
 npm start
+```
 
 ### Server will run on http://localhost:3000
 
@@ -39,18 +41,18 @@ Login to MySQL/PostgreSQL and create the database manually:
 📌 API Endpoints
 ✅ Café API
 Method	Endpoint	Description
-# GET	/api/cafes	Get all cafes
-# GET	/api/cafes?location=<location>	Get cafes by location
-# POST	/api/cafes	Add new cafe
-# PUT	/api/cafes/:id	Update cafe details
-# DELETE	/api/cafes/:id	Delete a cafe and its employees
+ GET	/api/cafes	Get all cafes
+ GET	/api/cafes?location=<location>	Get cafes by location
+ POST	/api/cafes	Add new cafe
+ PUT	/api/cafes/:id	Update cafe details
+ DELETE	/api/cafes/:id	Delete a cafe and its employees
 ✅ Employee API
 Method	Endpoint	Description
-# GET	/api/employees	Get all employees
-# GET	/api/employees?cafe=<cafe>	Get employees by cafe
-# POST	/api/employees	Add new employee
-# PUT	/api/employees/:id	Update employee details
-# DELETE	/api/employees/:id	Delete an employee
+ GET	/api/employees	Get all employees
+ GET	/api/employees?cafe=<cafe>	Get employees by cafe
+ POST	/api/employees	Add new employee
+ PUT	/api/employees/:id	Update employee details
+ DELETE	/api/employees/:id	Delete an employee
 
 
 ### 🎨 Café Employee Frontend
