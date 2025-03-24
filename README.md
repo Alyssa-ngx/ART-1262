@@ -69,12 +69,12 @@ Frontend will run on http://localhost:3001
 
 📌 Features
 ✅ Café Page
-# View all cafes with employee count
-# Filter cafes by location
-# Add/Edit/Delete cafés
+ View all cafes with employee count
+ Filter cafes by location
+ Add/Edit/Delete cafés
 
 ✅ Employee Page
-# View all employees
-# Assign employees to cafés
-# Track days worked
-# Add/Edit/Delete employees
+ View all employees
+ Assign employees to cafés
+ Track days worked
+ Add/Edit/Delete employees
